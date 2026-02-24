@@ -1,0 +1,148 @@
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            background:  white;;
+            color: rgb(12, 12, 12);
+            font-family: inclusif sans;
+        }
+
+.logo img{
+            width: 70px;  
+            height: auto;
+            align-items: right;
+
+        }
+
+nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+nav ul li a {
+            text-decoration: none;
+            color: rgb(7, 7, 7);
+            font-size: 16px;
+        }
+
+nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+.hero {
+            padding: 80px 40px;
+            text-align: center;
+            background: #e5e7eb;
+            font-family: inclusif sans;
+        }
+
+.hero h1 {
+            font-size: 50px;
+            margin-bottom: 60px;
+            font-family: inclusif sans;
+        }
+
+.hero p{
+            font-size: 20px;
+            margin-bottom: 40px;
+            font-family: inclusif sans;
+        }
+
+.hero button {
+            padding: 12px 20px;
+            border: none;
+            background: #238cee;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            font-family: inclusif sans;
+        }
+        
+.services {
+            padding: 60px 40px;
+            font-family: inclusif sans;
+        }
+
+.services h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 40px;
+            font-family: inclusif sans;
+        }
+
+.service-list {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            font-family: inclusif sans;
+            
+        }
+
+.service {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border-radius: 8px;
+            background: #5b92c5;
+            font-family: inclusif sans;
+        }
+
+.service h3 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            font-family: inclusif sans;
+            
+        }
+
+.service p{
+            font-size: 16px;
+            font-family: inclusif sans;
+            color: white ;
+        }
+
+
+footer {
+            text-align: center;
+            padding: 20px;
+            background: #238cee;
+            color: white;
+        }
+
+@media (max-width: 768px){
+
+    /* Header */
+    header{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Menu */
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Hero */
+    .Hero h1{
+        font-size: 26px;
+    }
+
+    .Hero p{
+        font-size: 14px;
+    }
+
+    /* Services */
+    .service-list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service{
+        width: 100%;
+        max-width: 320px;
+    }
+}
