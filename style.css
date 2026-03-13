@@ -35,19 +35,16 @@ nav ul li a:hover {
             padding: 80px 40px;
             text-align: center;
             background: #e5e7eb;
-            font-family: inclusif sans;
         }
 
 .hero h1 {
             font-size: 50px;
             margin-bottom: 60px;
-            font-family: inclusif sans;
         }
 
 .hero p{
             font-size: 20px;
             margin-bottom: 40px;
-            font-family: inclusif sans;
         }
 
 .hero button {
@@ -57,26 +54,22 @@ nav ul li a:hover {
             color: white;
             font-size: 20px;
             border-radius: 5px;
-            font-family: inclusif sans;
         }
         
 .services {
             padding: 60px 40px;
-            font-family: inclusif sans;
         }
 
 .services h2 {
             text-align: center;
             margin-bottom: 40px;
             font-size: 40px;
-            font-family: inclusif sans;
         }
 
 .service-list {
             display: flex;
             gap: 20px;
             justify-content: center;
-            font-family: inclusif sans;
             
         }
 
@@ -87,19 +80,16 @@ nav ul li a:hover {
             text-align: center;
             border-radius: 8px;
             background: #5b92c5;
-            font-family: inclusif sans;
         }
 
 .service h3 {
             margin-bottom: 15px;
             font-size: 24px;
-            font-family: inclusif sans;
             
         }
 
 .service p{
             font-size: 16px;
-            font-family: inclusif sans;
             color: white ;
         }
 
@@ -113,29 +103,25 @@ footer {
 
 @media (max-width: 768px){
 
-    /* Header */
     header{
         flex-direction: column;
         gap: 15px;
     }
 
-    /* Menu */
     nav ul{
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
 
-    /* Hero */
-    .Hero h1{
+    .hero h1{
         font-size: 26px;
     }
 
-    .Hero p{
+    .hero p{
         font-size: 14px;
     }
 
-    /* Services */
     .service-list{
         flex-direction: column;
         align-items: center;

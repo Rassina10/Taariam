@@ -14,7 +14,7 @@
 
         <nav>
             <ul>
-                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Accueil</a></li>
                 <li><a href="#">Services</a></li>
             </ul>
         </nav>
